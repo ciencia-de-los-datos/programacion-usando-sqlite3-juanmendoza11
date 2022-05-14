@@ -42,5 +42,5 @@
 --  4  E  555.323077
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT tbl1.K0, avg(tbl2.c21) FROM tbl1 INNER JOIN tbl2 ON tbl1.K0=tbl2.K0 WHERE tbl1.c13>400 GROUP BY tbl1.K0
+SELECT tbl1.K0, avg(tbl2.c21) FROM tbl1 INNER JOIN tbl2 ON tbl1.K0=tbl1.K0 WHERE tbl1.c13>400 GROUP BY tbl1.K0
 
