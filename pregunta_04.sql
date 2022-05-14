@@ -39,4 +39,4 @@
 --  2  C  CCCE
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT KO, c16 FROM tbl1 ORDER BY K0, c16
+SELECT K0, c16 FROM tbl1 ORDER BY K0, c16
