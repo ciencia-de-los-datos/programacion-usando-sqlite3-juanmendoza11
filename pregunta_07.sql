@@ -42,4 +42,4 @@
 --  12  C  24  482.32  300  2019-05-03  0.11  CCCE
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT * FROM tbl1 K0<> 'A' and K0<> 'B' and c13 NOT IN (200,900) ORDER BY c14
+SELECT * FROM tbl1 WHERE K0<> 'A' and K0<> 'B' and c13 NOT IN (200,900) ORDER BY c14
