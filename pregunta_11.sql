@@ -37,4 +37,4 @@
 --  0  2018     6
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT  YEAR, count(YEAR) FROM (SELECT strftime('%Y',c14) AS YEAR FROM tbl1 WHERE strftime('%Y',c14)='2018') GROUP BY YEAR
+SELECT  YEAR, count(YEAR) AS CANT FROM (SELECT strftime('%Y',c14) AS YEAR FROM tbl1 WHERE strftime('%Y',c14)='2018') GROUP BY YEAR
