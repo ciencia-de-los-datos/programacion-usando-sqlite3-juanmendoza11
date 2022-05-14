@@ -40,4 +40,5 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT strftime('%Y',c23) AS YEAR, avg(c21) FROM tbl2 GROUP BY strftime('%Y',c23)
+
+SELECT YEAR, avg(c21) FROM (SELECT strftime('%Y',c23) AS YEAR, c21 FROM tbl2) GROUP BY YEAR
